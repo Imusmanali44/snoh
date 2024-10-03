@@ -1,0 +1,279 @@
+@import 'init';
+
+.about {
+  margin-top: 0;
+  padding-top: 12rem;
+}
+
+section {
+  padding: 0 12rem;
+  background-image: url('../images/Group\ 7.png');
+  background-color: black;
+  opacity: 0.8;
+
+  .con_main {
+    padding: 12rem 0 10rem;
+
+    .phone {
+      p {
+        text-align: center;
+        color: white;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+      }
+
+      div {
+        margin-top: 1.6rem;
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+
+        h5 {
+          font-size: 3.2rem;
+          line-height: 4rem;
+          margin: 0;
+          color: white;
+        }
+
+        img {
+          margin: 0;
+        }
+      }
+    }
+
+    .form {
+      margin-top: 11.4rem;
+
+      form {
+        margin: auto;
+        width: 50%;
+
+        .name {
+          display: flex;
+          gap: 3rem;
+
+          div {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            label {
+              width: 20%;
+              font-size: 1.6rem;
+            }
+
+            input {
+              width: 80%;
+              padding: 0.8rem;
+            }
+          }
+        }
+
+        .mail {
+          margin-top: 2.5rem;
+          display: flex;
+          align-items: center;
+          div {
+            width: 30%;
+
+            label {
+              font-size: 1.6rem;
+            }
+
+            span {
+              background-color: red;
+              color: white;
+              font-size: 1.6rem;
+              margin-left: 1rem;
+              padding: 0 0.5rem;
+            }
+          }
+
+          input {
+            width: 70%;
+            padding: 0.8rem;
+          }
+
+          textarea {
+            padding: 0.8rem;
+            width: 70%;
+          }
+        }
+
+        .radio {
+          margin-top: 3.6rem;
+          display: flex;
+
+          .label {
+            width: 30%;
+
+            label {
+              font-size: 1.6rem;
+            }
+          }
+
+          .input {
+            width: 70%;
+            display: flex;
+
+            div {
+              width: 50%;
+              margin: 0;
+
+              label {
+                margin-left: 1rem;
+                font-size: 1.6rem;
+              }
+            }
+          }
+        }
+
+        button {
+          margin: auto;
+          display: flex;
+          padding: 1rem 6rem;
+          font-size: 2.4rem;
+          margin-top: 6rem;
+          background-color: #009E95;
+          line-height: 4rem;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:1024px) {
+  section {
+    padding: 0 8rem;
+
+    .con_main {
+      padding: 8rem 0;
+
+      .form {
+        form {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:768px) {
+  .about {
+    max-width: unset;
+  }
+  section {
+    padding: 0 3rem;
+
+    .con_main {
+      padding: 5rem 0;
+
+      .phone {
+        p {
+          margin: 1rem 0;
+          text-align: left;
+          font-size: 1.6rem;
+          line-height: 2rem;
+          letter-spacing: -1px;
+        }
+      }
+
+      .form {
+        margin-top: 4rem;
+
+        form {
+          width: 100%;
+
+          .name {
+            gap: 1rem;
+
+            div {
+
+              label {
+                font-size: 1.6rem;
+              }
+            }
+          }
+
+          .mail {
+            margin-top: 2rem;
+
+            div {
+              label {
+                font-size: 1.6rem;
+              }
+
+              span {
+                font-size: 1.6rem;
+              }
+            }
+
+          }
+
+          .radio {
+            margin-top: 2rem;
+
+            .label {
+              label {
+                font-size: 1.6rem;
+              }
+            }
+
+            .input {
+              div {
+                label {
+                  font-size: 1.6rem;
+                }
+              }
+            }
+          }
+
+          .button {
+            margin-top: 3rem;
+
+            button {
+              padding: 0.5rem 2rem;
+              font-size: 1.6rem;
+              line-height: 2.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  section {
+    padding: 0 2rem;
+
+    .con_main {
+      padding: 2rem 0;
+
+      .form {
+        margin-top: 2rem;
+
+        form {
+          width: 100%;
+
+          .name {
+            gap: 1rem;
+
+            div {
+              label {
+                font-size: 1.6rem;
+              }
+
+              input {
+                margin-left: 1rem;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

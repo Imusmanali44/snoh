@@ -1,0 +1,169 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yu Gothic", "YUGothic";
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about div .letter_A {
+  margin-bottom: -3rem !important;
+}
+
+.movie_main {
+  padding: 0 12rem;
+}
+.movie_main .main1 {
+  margin-top: 9rem;
+}
+.movie_main .main1 .profile_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie_main .main1 .profile_text hr {
+  border: solid #009E95 1px;
+  width: 8rem;
+  margin: 0;
+}
+.movie_main .main1 .profile_text h2 {
+  font-size: 3rem;
+  color: #009E95;
+  margin-left: 2.8rem;
+  margin-right: 2.8rem;
+}
+.movie_main .main1 h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.movie_main .main1 .img_group {
+  margin-top: 4rem;
+  display: flex;
+  gap: 6.5rem;
+}
+.movie_main .main1 .img_group img {
+  width: 30%;
+}
+
+.movie_back {
+  margin-top: 10rem;
+  height: 40rem;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.movie_back img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.movie_back h2 {
+  font-size: 7.2rem;
+  color: white;
+  line-height: 9.6rem;
+  text-align: center;
+  position: absolute;
+  transform: translate(0, 0);
+}
+
+@media (max-width: 1440px) {
+  .movie_main {
+    padding: 0 10rem;
+  }
+}
+@media (max-width: 1024px) {
+  .movie_main {
+    padding: 0 8rem;
+  }
+  .movie_main .main1 .img_group {
+    margin-top: 3rem;
+    gap: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .movie_main {
+    padding: 0 4rem;
+  }
+  .movie_main .main1 {
+    margin-top: 3rem;
+  }
+  .movie_main .main1 .profile_text h2 {
+    font-size: 3rem;
+  }
+  .movie_main .main1 .profile_text hr {
+    width: 10rem;
+  }
+  .movie_main .main1 h3 {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+  }
+  .movie_main .main1 .img_group {
+    margin-top: 3rem;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .movie_main .main1 .img_group img {
+    width: 100%;
+  }
+  .movie_back {
+    margin-top: 6rem;
+    height: 40rem;
+  }
+  .movie_back h2 {
+    font-size: 4rem;
+    color: white;
+    line-height: 6rem;
+  }
+}
+@media (max-width: 425px) {
+  .movie_main {
+    padding: 0 2rem;
+  }
+  .movie_main .main1 {
+    margin-top: 3rem;
+  }
+  .movie_main .main1 .profile_text {
+    gap: 0;
+  }
+  .movie_main .main1 .profile_text h2 {
+    font-size: 2.4rem;
+  }
+  .movie_main .main1 .profile_text hr {
+    width: 8rem;
+  }
+  .movie_main .main1 h3 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+  }
+  .movie_main .main1 .img_group {
+    margin-top: 2rem;
+  }
+  .movie_back {
+    margin-top: 2rem;
+    height: 30rem;
+  }
+  .movie_back h2 {
+    font-size: 3rem;
+    line-height: 6rem;
+  }
+}/*# sourceMappingURL=movie.css.map */

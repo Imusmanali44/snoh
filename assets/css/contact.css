@@ -1,0 +1,233 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yu Gothic", "YUGothic";
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about {
+  margin-top: 0;
+  padding-top: 12rem;
+}
+
+section {
+  padding: 0 12rem;
+  background-image: url("../images/Group 7.png");
+  background-color: black;
+  opacity: 0.8;
+}
+section .con_main {
+  padding: 12rem 0 10rem;
+}
+section .con_main .phone p {
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+section .con_main .phone div {
+  margin-top: 1.6rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+section .con_main .phone div h5 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  margin: 0;
+  color: white;
+}
+section .con_main .phone div img {
+  margin: 0;
+}
+section .con_main .form {
+  margin-top: 11.4rem;
+}
+section .con_main .form form {
+  margin: auto;
+  width: 50%;
+}
+section .con_main .form form .name {
+  display: flex;
+  gap: 3rem;
+}
+section .con_main .form form .name div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+section .con_main .form form .name div label {
+  width: 20%;
+  font-size: 1.6rem;
+}
+section .con_main .form form .name div input {
+  width: 80%;
+  padding: 0.8rem;
+}
+section .con_main .form form .mail {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+section .con_main .form form .mail div {
+  width: 30%;
+}
+section .con_main .form form .mail div label {
+  font-size: 1.6rem;
+}
+section .con_main .form form .mail div span {
+  background-color: red;
+  color: white;
+  font-size: 1.6rem;
+  margin-left: 1rem;
+  padding: 0 0.5rem;
+}
+section .con_main .form form .mail input {
+  width: 70%;
+  padding: 0.8rem;
+}
+section .con_main .form form .mail textarea {
+  padding: 0.8rem;
+  width: 70%;
+}
+section .con_main .form form .radio {
+  margin-top: 3.6rem;
+  display: flex;
+}
+section .con_main .form form .radio .label {
+  width: 30%;
+}
+section .con_main .form form .radio .label label {
+  font-size: 1.6rem;
+}
+section .con_main .form form .radio .input {
+  width: 70%;
+  display: flex;
+}
+section .con_main .form form .radio .input div {
+  width: 50%;
+  margin: 0;
+}
+section .con_main .form form .radio .input div label {
+  margin-left: 1rem;
+  font-size: 1.6rem;
+}
+section .con_main .form form button {
+  margin: auto;
+  display: flex;
+  padding: 1rem 6rem;
+  font-size: 2.4rem;
+  margin-top: 6rem;
+  background-color: #009E95;
+  line-height: 4rem;
+  border: none;
+}
+
+@media (max-width: 1024px) {
+  section {
+    padding: 0 8rem;
+  }
+  section .con_main {
+    padding: 8rem 0;
+  }
+  section .con_main .form form {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    max-width: unset;
+  }
+  section {
+    padding: 0 3rem;
+  }
+  section .con_main {
+    padding: 5rem 0;
+  }
+  section .con_main .phone p {
+    margin: 1rem 0;
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: -1px;
+  }
+  section .con_main .form {
+    margin-top: 4rem;
+  }
+  section .con_main .form form {
+    width: 100%;
+  }
+  section .con_main .form form .name {
+    gap: 1rem;
+  }
+  section .con_main .form form .name div label {
+    font-size: 1.6rem;
+  }
+  section .con_main .form form .mail {
+    margin-top: 2rem;
+  }
+  section .con_main .form form .mail div label {
+    font-size: 1.6rem;
+  }
+  section .con_main .form form .mail div span {
+    font-size: 1.6rem;
+  }
+  section .con_main .form form .radio {
+    margin-top: 2rem;
+  }
+  section .con_main .form form .radio .label label {
+    font-size: 1.6rem;
+  }
+  section .con_main .form form .radio .input div label {
+    font-size: 1.6rem;
+  }
+  section .con_main .form form .button {
+    margin-top: 3rem;
+  }
+  section .con_main .form form .button button {
+    padding: 0.5rem 2rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+@media (max-width: 450px) {
+  section {
+    padding: 0 2rem;
+  }
+  section .con_main {
+    padding: 2rem 0;
+  }
+  section .con_main .form {
+    margin-top: 2rem;
+  }
+  section .con_main .form form {
+    width: 100%;
+  }
+  section .con_main .form form .name {
+    gap: 1rem;
+  }
+  section .con_main .form form .name div label {
+    font-size: 1.6rem;
+  }
+  section .con_main .form form .name div input {
+    margin-left: 1rem;
+  }
+}/*# sourceMappingURL=contact.css.map */

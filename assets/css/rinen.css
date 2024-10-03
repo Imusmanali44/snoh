@@ -1,0 +1,383 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yu Gothic", "YUGothic";
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.loso_top {
+  position: sticky;
+  top: 0;
+  z-index: -1;
+}
+.loso_top .loso_back {
+  width: 100%;
+  z-index: 3;
+  background-color: black;
+  height: 100vh;
+  min-height: calc(25.5 * var(--space));
+  overflow: hidden;
+  position: relative;
+}
+.loso_top .loso_back .image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/little-adorable-daughter-wear-glasses-have-fun-playing-laptop-pretenting-work-home-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.loso_top .top_con {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  padding: 0 24rem;
+  margin-top: -76rem;
+}
+.loso_top .top_con .about {
+  margin-top: 10rem;
+}
+.loso_top .top_con .about div .letter_about h3 {
+  color: white;
+}
+.loso_top .top_con .slogon {
+  margin: 26rem 0 18rem;
+  display: flex;
+  justify-content: center;
+}
+.loso_top .top_con .slogon div {
+  text-align: left;
+  color: white;
+  font-size: 5rem;
+  line-height: 10rem;
+}
+.loso_top .top_con .aos-item::before {
+  position: relative;
+  background: dodgerblue;
+  text-align: center;
+  color: #fff;
+}
+.loso_top .top_con h2 {
+  position: absolute;
+  font-size: 3.6rem;
+  line-height: 5rem;
+  color: #009E95;
+  margin-top: -47rem;
+}
+
+.text_con {
+  background: white;
+  padding-bottom: 10rem;
+}
+.text_con .con1 {
+  padding-top: 10rem;
+}
+.text_con .con1 h2 {
+  color: #009E95;
+  font-size: 3.6rem;
+  line-height: 5rem;
+  letter-spacing: -5px;
+}
+.text_con .con1 div {
+  display: flex;
+  justify-content: center;
+  padding: 10rem 10rem 0;
+}
+.text_con .con1 div p {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: left;
+}
+
+.loso_skill {
+  padding: 10rem 0;
+  background-color: #000000;
+}
+.loso_skill .about {
+  margin-top: 0;
+}
+.loso_skill .about h3 {
+  color: white;
+}
+.loso_skill .skill_group {
+  margin-top: 4.5rem;
+  display: flex;
+  gap: 12rem;
+}
+.loso_skill .skill_group .A_skill {
+  margin: 0;
+  width: 30%;
+}
+.loso_skill .skill_group .A_skill .img img {
+  width: 100%;
+}
+.loso_skill .skill_group .A_skill p {
+  margin-top: 4.2rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: white;
+  text-align: center;
+}
+
+.loso_feature {
+  padding: 10rem 0;
+  background: white;
+}
+.loso_feature .about {
+  margin-top: 0;
+}
+.loso_feature .fea_con {
+  padding: 5rem 9.6rem 0;
+  display: flex;
+  gap: 17rem;
+}
+.loso_feature .fea_con .img {
+  width: 50%;
+}
+.loso_feature .fea_con .img img {
+  width: 100%;
+}
+
+@media (max-width: 1440px) {
+  .loso_top .loso_back {
+    height: 90vh;
+  }
+  .loso_top .top_con {
+    padding: 0 16rem;
+    margin-top: -65rem;
+  }
+  .loso_top .top_con .slogon {
+    margin: 18rem 0 10rem;
+  }
+  .loso_top .top_con h2 {
+    margin-top: -40rem;
+  }
+  .text_con .con1 div {
+    padding: 10rem 12rem 0;
+  }
+  .text_con .con1 div p {
+    font-size: 1.8rem;
+  }
+  .loso_skill {
+    padding: 10rem 0;
+  }
+  .loso_skill .skill_group {
+    gap: 8rem;
+  }
+  .loso_feature {
+    padding: 10rem 0;
+    background: white;
+  }
+  .loso_feature .fea_con {
+    padding: 5rem 6rem 0;
+    gap: 12rem;
+  }
+  .loso_feature .fea_con .img {
+    width: 50%;
+  }
+  .loso_feature .fea_con .img img {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .loso_top .loso_back {
+    height: 80vh;
+  }
+  .loso_top .about {
+    margin-top: 15rem !important;
+  }
+  .loso_top .top_con {
+    padding: 0 16rem;
+    margin-top: -65rem;
+  }
+  .loso_top .top_con .slogon {
+    margin: 18rem 0 10rem;
+  }
+  .loso_top .top_con h2 {
+    margin-top: -40rem;
+  }
+  .text_con .con1 {
+    padding-top: 8rem;
+  }
+  .text_con .con1 div {
+    padding: 0 12rem 0;
+  }
+  .text_con .con1 div p {
+    font-size: 1.6rem;
+    margin-top: 4rem;
+  }
+  .loso_skill {
+    padding: 6rem 0;
+  }
+  .loso_skill .skill_group {
+    gap: 4rem;
+  }
+  .loso_skill .skill_group .A_skill p {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .loso_feature {
+    padding: 6rem 10rem;
+  }
+  .loso_feature .fea_con {
+    padding: 5rem 0 0;
+    gap: 6rem;
+  }
+  .loso_feature .fea_con .img {
+    width: 50%;
+  }
+  .loso_feature .fea_con .img img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .loso_top .loso_back {
+    height: 60vh;
+  }
+  .loso_top .about {
+    margin-top: 4rem !important;
+  }
+  .loso_top .top_con {
+    padding: 0 5rem;
+    margin-top: -40rem;
+  }
+  .loso_top .top_con .slogon {
+    margin: 16rem 0 5rem;
+  }
+  .loso_top .top_con .slogon div {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .loso_top .top_con h2 {
+    margin-top: -20rem;
+  }
+  .text_con .con1 {
+    padding-top: 5rem;
+  }
+  .text_con .con1 h2 {
+    letter-spacing: 0;
+  }
+  .text_con .con1 div {
+    padding: 0 4rem 0;
+  }
+  .text_con .con1 div p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+  }
+  .loso_skill {
+    padding: 6rem 0;
+  }
+  .loso_skill .skill_group {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .loso_skill .skill_group .A_skill {
+    width: 100%;
+  }
+  .loso_skill .skill_group .A_skill .img {
+    display: flex;
+    justify-content: center;
+  }
+  .loso_skill .skill_group .A_skill .img img {
+    width: 50%;
+  }
+  .loso_skill .skill_group .A_skill p {
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  .loso_feature {
+    padding: 8rem 0;
+  }
+  .loso_feature .fea_con {
+    padding: 5rem 0 0;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .loso_feature .fea_con .img {
+    width: 100%;
+  }
+  .loso_feature .fea_con .img img {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .loso_top .loso_back {
+    height: 40vh;
+  }
+  .loso_top .about {
+    margin-top: 5rem !important;
+  }
+  .loso_top .top_con {
+    padding: 0 2rem;
+    margin-top: -30rem;
+  }
+  .loso_top .top_con .slogon {
+    margin: 5rem 0 2rem;
+  }
+  .loso_top .top_con .slogon div {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .loso_top .top_con h2 {
+    margin-top: -10rem;
+  }
+  .text_con .con1 h2 {
+    line-height: 3rem;
+    letter-spacing: 0;
+  }
+  .text_con .con1 div p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+  }
+  .loso_skill {
+    padding: 8rem 0;
+  }
+  .loso_skill .skill_group {
+    gap: 2rem;
+  }
+  .loso_skill .skill_group .A_skill p {
+    margin-top: 2%;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .loso_skill .skill_group .A_skill .img img {
+    width: 80%;
+  }
+  .loso_feature .fea_con {
+    padding: 3rem 0 0;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .loso_feature .fea_con .img {
+    width: 100%;
+  }
+  .loso_feature .fea_con .img img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=rinen.css.map */
