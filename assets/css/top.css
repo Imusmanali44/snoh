@@ -937,6 +937,11 @@ header .menu-items-sp li .r-pad {
 
 .business .about div .letter_about h3 {
   font-size: 3.2rem;
+  color: white;
+}
+
+#contents.bg_white .business .about div .letter_about h3 {
+  color: black;
 }
 
 .business .about div .circle {
@@ -1112,7 +1117,7 @@ header .menu-items-sp li .r-pad {
   cursor: pointer;
 }
 
-.business-web .web_photograpic .photo_con .photo_base .img_con:hover button, 
+.business-web .web_photograpic .photo_con .photo_base .img_con:hover button,
 .business-web .school .photo_con .photo_base .img_con:hover button {
   display: block;
 }
@@ -1131,7 +1136,7 @@ header .menu-items-sp li .r-pad {
 }
 
 #contents.bg_white .business-web .web_photograpic .photo_con .photo_base h6,
-#contents.bg_white .business-web .school .photo_con .photo_base h6{
+#contents.bg_white .business-web .school .photo_con .photo_base h6 {
   color: black;
 }
 
@@ -1156,14 +1161,14 @@ header .menu-items-sp li .r-pad {
 
 @media (max-width: 450px) {
   .business-web .web_photograpic h4,
-  .business-web .school h4{
+  .business-web .school h4 {
     margin-top: 2rem;
     font-size: 1.8rem;
     line-height: 2.4rem;
   }
 
   .business-web .web_photograpic .photo_con,
-  .business-web .school .photo_con{
+  .business-web .school .photo_con {
     flex-direction: column;
     gap: 2rem;
     margin-top: 2rem;
@@ -1190,6 +1195,12 @@ header .menu-items-sp li .r-pad {
 .business-web .web_event .e_descrip p {
   font-size: 2.4rem;
   text-align: left;
+  color: white;
+}
+
+#contents.bg_white .business-web .web_event .e_descrip p {
+  color: black;
+
 }
 
 .business-web .web_event .event_con {

@@ -618,19 +618,19 @@
       const inSectionRange = (element) => {
         let top = element.getBoundingClientRect().top + window.scrollY;
         let height = element.offsetHeight;
-        return scr > top - winHeight / 3 && scr < top + height - winHeight / 3;
+        return scr > top - winHeight / 2 && scr < top + height - winHeight / 3;
       };
 
       // Section elements
       const sections = {
         secondSection: document.querySelector(".snoh"),
         thirdSection: document.querySelector(".business"),
-        fourthSection: document.querySelector(".us"),
         webCreative: document.querySelector(".web_creative"),
         webDesign: document.querySelector(".web_design"),
         webPhotographic: document.querySelector(".web_photograpic"),
         school: document.querySelector(".school"),
         webEvent: document.querySelector(".web_event"),
+        lastSection: document.querySelector(".us"),
       };
 
       // First Section Logic (Video Clip Section)
@@ -645,11 +645,8 @@
       // Apply or remove bg_white for main sections
       if (inSectionRange(sections.secondSection)) {
         document.getElementById("contents").classList.remove("bg_white");
-      } else if (
-        inSectionRange(sections.thirdSection) ||
-        inSectionRange(sections.fourthSection)
-      ) {
-        // document.getElementById("contents").classList.add("bg_white");
+      } else if (inSectionRange(sections.thirdSection)) {
+        document.getElementById("contents").classList.add("bg_white");
       }
 
       // Apply or remove bg_white for subsections
