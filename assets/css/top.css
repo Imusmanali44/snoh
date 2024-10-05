@@ -974,18 +974,23 @@ header .menu-items-sp li .r-pad {
   position: relative;
 }
 
-.business-web .web_con .creation_con .creation button {
+.business-web .web_con .creation_con .creation .more-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   position: absolute;
+  display: none;
+  top: 40%;
+  z-index: 500;
+}
+
+.business-web .web_con .creation_con .creation .more-btn button{
   background-color: #009e95;
-  max-width: 200px;
-  padding: 1.6rem 7.1rem;
+  width: min(200px,  60%);
+  padding: 1.6rem 2vw;
   font-size: clamp(2rem, 1.1vw, 2.4rem);
   line-height: 3.2rem;
   border: none;
-  display: none;
-  top: 40%;
-  left: 25%;
-  z-index: 500;
   cursor: pointer;
 }
 
@@ -1020,8 +1025,8 @@ header .menu-items-sp li .r-pad {
   display: none;
 }
 
-.business-web .web_con .creation_con .creation:hover button {
-  display: block;
+.business-web .web_con .creation_con .creation:hover .more-btn {
+  display: flex;
 }
 
 .business-web .web_con .creation_con .creation:hover .hover_con {
@@ -1052,6 +1057,15 @@ header .menu-items-sp li .r-pad {
   font-size: 2.4rem;
   line-height: 4rem;
   text-align: center;
+}
+
+@media (max-width: 1024px){
+  .business-web .web_con{
+    flex-direction: column;
+  }
+  .business-web .web_con .creation_con {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
